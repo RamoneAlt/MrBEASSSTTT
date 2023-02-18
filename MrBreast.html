@@ -1,0 +1,304 @@
+<head>
+<style>body {
+  align-content: center;
+  background-color: lightcoral;
+  font-family: Verdana, sans-serif;
+  background-image: linear-gradient(to bottom, #4a5d8f,#536db5,#7993db,#84a2f5,#cff584,#ffd240,red);
+  overflow-x: hidden;
+}
+
+
+
+.line1 {
+  color: grey;
+  margin-left: 50%;
+  background-color: whitesmoke;
+  text-shadow: yellow 2px 3px 3px;
+  border-radius: 3px;
+  border: solid black 7px;
+  transition: 0.4s;
+}
+.line1:hover {
+  text-shadow: orange 4px 4px 2px;
+  transition: 0.4s;
+  letter-spacing: 3px;
+  color: brown;
+}
+
+
+
+.line2 {
+  font-family: Verdana, sans-serif;
+  letter-spacing: 27px;
+  transition: 1.2s;
+}
+
+.line2:hover {
+   letter-spacing: 2px;
+   transition: 0.57s;
+}
+
+.line3 {
+  letter-spacing: 3px;
+  margin: left 10%;
+  margin-left: 20%;
+  transition: 0.35s;
+}
+
+.line3:hover {
+  
+  color: orange;
+  transition: 0.7s;
+  text-shadow: red 2px 2px 2px;
+}
+
+.line4 {
+  
+  margin: 20%;
+  text-decoration: underline;
+  rotate: 12deg;
+  letter-spacing: 2px;
+  color: darkred;
+  transition: 0.5s;
+}
+
+.line4:hover {
+  
+  opacity: 0.3;
+  transition: 0.5s;
+  
+}
+
+.line5 { 
+  rotate: -12deg;
+}
+
+p {
+  font-size: 32px;
+  font-family: cursive;
+  margin-left: 60%;
+  margin-top: 20%;
+  transition: 0.5s;
+}
+p:hover {
+  transition: 0.3s;
+  font-size: 39px;
+  box-shadow: black 3px 3px 4px;
+}
+
+.line6 {
+  transition: 0.3s;
+  color: green;
+  rotate: 3deg;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.line7 {
+  transition: 0.3s;
+  opacity: 0.2;
+  text-align: center right;
+  color: black;
+  rotate: -4deg;
+  
+}
+
+.line7:hover {
+  
+  transition: 0.5s;
+  opacity: 1;
+  color: white;
+}
+
+.line8 {
+  
+  margin: 15%;
+  text-decoration: overline underline;
+  rotate: 12deg;
+  letter-spacing: 2px;
+  color: darkred;
+  transition: 1.3s;
+}
+
+.line8:hover {
+  letter-spacing: 7px;
+  opacity: 0.9;
+  transition: 0.9s;
+}
+
+.reveal2 {
+    position: relative;
+  transform: translateY(150px);
+  opacity: 1;
+  transition: 3.5s all ease;
+    font-family: Arial;
+  color: black;
+  text-shadow: grey 5px 6px 5px;
+  font-size: 60px;
+  margin-left: 40%;
+}
+
+.reveal2.active{
+  rotate: 45deg;
+  transform: translateY(0);
+  opacity: 0;
+}
+
+.reveal3 {
+    position: relative;
+  transform: translateY(150px);
+  opacity: 1;
+  transition: 5.5s all ease;
+    font-family: Arial;
+  color: black;
+  text-shadow: orangered 5px 6px 5px;
+  font-size: 75px;
+  margin-right: 40%;
+}
+
+.reveal3.active{
+  rotate: -45deg;
+  transform: translateY(0);
+  opacity: 0;
+}
+
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 1;
+  transition: 3.5s all ease;
+    font-family: Arial;
+  color: orange;
+  text-shadow: grey 3px 4px 4px;
+  font-size: 90px;
+  margin-left: 40%;
+}
+
+.reveal.active{
+  rotate: 45deg;
+  transform: translateY(0);
+  opacity: 0;
+}</style>
+  <body>
+ 
+ <h1 class="line1">
+ Welcome to your final test.
+ </h1>
+ <br>
+ 
+ <h2 class="line2">
+ I'm Mr Beast
+ </h2>
+ <br> <br> <br> <br> <br> <br> <br> <br>
+<h2 class="line3">
+But we can scrap the
+</h2>
+<h1 class="reveal">
+S
+</h1>
+<br> <br> <br><br><br>
+<h2 class="line3">
+cause I never miss a beat.
+</h2>
+<b>
+<h3 class="line4">
+You had to cut from honey under threat of a gun blast. 
+</h3>
+</b>
+
+<h2 class="line5">
+When I had a cut from Honey, that's another check that im gonna cash
+</h2>
+<br> <br>
+<p>
+You're coming last, Number 1 is Jimmy!
+</p>
+  
+<h3 class="line6">
+Only dub you have is horribly written
+</h3>
+  <br>
+<h3 class="line7">
+You're accomplished 'cause you fought the opposition and became the best,
+</h3>
+  
+<h3 class="line8">
+but the consequences that you've got to live with is you paved their deaths all to pay your debt
+</h3>
+
+<h3 class="reveal2">
+In the diss game you won't get rich
+</h3>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h3 class="reveal3">
+I'm like your momma: I'm dead sick
+</h3>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h5>
+E.
+</h5>
+  
+
+  </body>
+  <script>
+  function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+
+function reveal2() {
+  var reveals2 = document.querySelectorAll(".reveal2");
+
+  for (var i = 0; i < reveals2.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals2[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals2[i].classList.add("active");
+    } else {
+      reveals2[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal2);
+
+function reveal3() {
+  var reveals3 = document.querySelectorAll(".reveal3");
+
+  for (var i = 0; i < reveals3.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals3[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals3[i].classList.add("active");
+    } else {
+      reveals3[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal3);
+</script>
+  
+</head>
